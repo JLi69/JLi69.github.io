@@ -1,0 +1,36 @@
+.download-box
+{	
+	background-color: #333333;
+
+	border-radius: 50px;
+
+	width: 98%;
+
+	display: block;
+	margin: auto;		
+}
+
+h1
+{
+	text-align: left;
+}
+
+h2
+{
+	text-align: left;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+h3
+{
+	font-size: 18px;
+
+	text-align: left;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}

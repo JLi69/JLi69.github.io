@@ -1,0 +1,74 @@
+h1
+{
+	text-align: center;
+	font-family: "Consolas", monospace;
+	color: #FFFFFF;
+	font-size: 50px;
+}
+
+h2
+{
+	text-align: center;
+	font-family: "Consolas", monospace;
+	color: #FFFFFF;
+	font-size: 32px;
+}
+
+h3
+{
+	text-align: center;
+	font-family: "Consolas", monospace;
+	color: #FFFFFF;
+	font-size: 22px;
+}
+
+/* Background Color */
+body
+{
+	background-color: #212121;
+}
+
+/* Links to other locations */
+a
+{
+	font-family: "Consolas", monospace;
+}
+a:link
+{
+	color: #0088FF;
+}
+a:visited
+{
+	color: #0066CC;
+}
+a:hover
+{
+	color: #FF0066;
+}
+
+#top-bar
+{
+	position: absolute;
+	width: 98%;
+	height: 5%;
+	top: 1%;
+	left: 1%;
+	
+	background-color: #333333;
+
+	border-radius: 30px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.top-bar-link
+{
+	padding: 40px;
+}
+
+.highlight
+{
+	color: #008888;
+}

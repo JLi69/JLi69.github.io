@@ -35,24 +35,21 @@ a
 }
 a:link
 {
-	color: #0088FF;
+	color: #00CCFF;
 }
 a:visited
 {
-	color: #0066CC;
+	color: #0099EE;
 }
 a:hover
 {
-	color: #FF0066;
+	color: #FF00AA;
 }
 
 #top-bar
 {
-	position: absolute;
 	width: 98%;
 	height: 5%;
-	top: 1%;
-	left: 1%;
 	
 	background-color: #333333;
 
@@ -61,14 +58,26 @@ a:hover
 	display: flex;
 	align-items: center;
 	justify-content: center;
+
+	margin: auto;
 }
 
 .top-bar-link
 {
-	padding: 40px;
+	padding: 20px;
 }
 
 .highlight
 {
 	color: #008888;
+}
+
+.screenshot
+{
+	max-width: 500px;
+	padding: 20px;
+	border-radius: 40px;	
+
+	display: block;
+	margin: auto;
 }

@@ -1,0 +1,34 @@
+.box
+{	
+	background-color: #333333;
+	border-radius: 50px;
+
+	width: 98%;
+
+	display: block;
+	margin: auto;
+}
+
+.box-title
+{
+	padding: 10px;
+	text-align: left;
+	margin-left: 50px;
+}
+
+.box-text
+{	
+	padding: 10px;
+	text-align: left;
+	margin-left: 60px;
+}
+
+.status-complete
+{
+	color: #00FF00;
+}
+
+.status-wip
+{
+	color: #FFFF00;
+}

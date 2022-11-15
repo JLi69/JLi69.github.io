@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Capture the Flag!</title>
+		
+		<link rel="stylesheet" href="style/style.css">
+	</head>
+	
+	<body>
+		<h1 id="score-counter">red: 0 | blue: 0</h1>
+		<h2 id="death-counter">red kills: 0 | blue kills: 0</h2>
+
+		<!-- game board is 25 tiles wide, 14 tiles tall -->
+		<canvas id="game" width="1000px" height="560px"></canvas>
+		
+		<div id="blue-win">
+			<h1>BLUE WINS!</h1>
+			<button onclick="document.location.reload()">Reload Page</button>
+		</div>
+		<div id="red-win">
+			<h1>RED WINS!</h1>
+			<button onclick="document.location.reload()">Reload Page</button>
+		</div>
+		
+		<script src="src/maps.js"></script>
+		<script src="src/explosion.js"></script>
+		<script src="src/bullet.js"></script>
+		<script src="src/flag.js"></script>
+		<script src="src/player.js"></script>
+		<script src="src/draw.js"></script>
+		<script src="src/handle-key-input.js"></script>
+	</body>
+</html>

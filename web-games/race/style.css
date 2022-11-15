@@ -1,0 +1,25 @@
+#lap-counter
+{
+	text-align: center;
+}
+
+#race
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#banana
+{
+	width: 0px;
+	height: 0px;
+	padding: 0px;
+}
+
+#protein
+{
+	width: 0px;
+	height: 0px;
+	padding: 0px;
+}

@@ -1,0 +1,54 @@
+/* Center the canvas */
+#game
+{
+	display: block;
+	margin: auto;
+}
+
+#score-counter
+{
+	text-align: center;
+}
+
+#death-counter
+{
+	text-align: center;
+}
+
+#red-win
+{
+	background: #FF0000;
+	display: block;
+	text-align: center;
+	
+	width: 30%;
+	height: 30%;
+	padding: 5px;
+	
+	border-radius: 40px;
+	
+	position: absolute;
+	left: 35%;
+	top: 35%;
+	
+	visibility: hidden;
+}
+
+#blue-win
+{
+	background: #0000FF;
+	display: block;
+	text-align: center;
+	
+	width: 30%;
+	height: 30%;
+	padding: 5px;
+	
+	border-radius: 40px;
+	
+	position: absolute;
+	left: 35%;
+	top: 35%;
+	
+	visibility: hidden;
+}

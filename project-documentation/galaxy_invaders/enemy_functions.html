@@ -11,16 +11,16 @@
 
 		<a href="documentation.html">Back</a>
 
-		<br><br>
+		<r><br>
 
 		<div class="important">
-			<b><i>IMPORTANT:</i></b> if gameobject is nil, the game will crash!
+			<strong><em>IMPORTANT:</em></strong> if gameobject is nil, the game will crash!
 		</div>	
 
 		<br>
 		
 		<div class="box">
-			<b>gameobject</b> - user data that points to an enemy object
+			<strong>gameobject</strong> - user data that points to an enemy object
 		</div>	
 		
 		<br>
@@ -28,8 +28,8 @@
 		<div class="box">
 			<h3>enemy_setObjectPos(gameobject, x, y)</h3>
 			<p>
-				<b>x</b> - x coordinate to set the object's position to<br>
-				<b>y</b> - y coordinate to set the object's position to<br>
+				<strong>x</strong> - x coordinate to set the object's position to<br>
+				<strong>y</strong> - y coordinate to set the object's position to<br>
 				<br>
 				If the object goes outside of the range [-1024, 1024] for x<br>
 				or the range [-600, 600] for y it will be removed by the game.<br>
@@ -41,8 +41,8 @@
 		<div class="box">
 			<h3>enemy_setObjectVel(gameobject, velx, vely)</h3>
 			<p>
-				<b>velx</b> - new speed of the object in the x direction<br>
-				<b>vely</b> - new speed of the object in the y direction
+				<strong>velx</strong> - new speed of the object in the x direction<br>
+				<strong>vely</strong> - new speed of the object in the y direction
 			</p>	
 		</div>	
 
@@ -51,7 +51,7 @@
 		<div class="box">
 			<h3>enemy_getObjectPos(gameobject) &rarr; x, y</h3>
 			
-			<p><b>x, y</b> - return values of the function, position of object in game</p>
+			<p><strong>x, y</strong> - return values of the function, position of object in game</p>
 			
 			<div class="code">
 				x, y = enemy_getObjectPos(gameobject)
@@ -62,7 +62,7 @@
 		
 		<div class="box">
 			<h3>enemy_getObjectVel(gameobject) &rarr; velx, vely</h3>
-			<p><b>velx, vely</b> - return values of the function, velocity of object in game</p>
+			<p><strong>velx, vely</strong> - return values of the function, velocity of object in game</p>
 			
 			<div class="code">
 				velx, vely = enemy_getObjectVel(gameobject)
@@ -74,8 +74,8 @@
 		<div class="box">
 			<h3>enemy_setObjectSize(gameobject, w, h)</h3>
 			<p>
-			<b>w</b> - new width of the object<br>
-			<b>h</b> - new height of the object
+			<strong>w</strong> - new width of the object<br>
+			<strong>h</strong> - new height of the object
 			</p>
 		</div>	
 	
@@ -84,8 +84,8 @@
 		<div class="box">
 			<h3>enemy_getObjectSize(gameobject) &rarr; w, h</h3>
 			<p>
-			<b>w</b> - width of the object<br>
-			<b>h</b> - height of the object<br>
+			<strong>w</strong> - width of the object<br>
+			<strong>h</strong> - height of the object<br>
 			</p>	
 
 			<div class="code">

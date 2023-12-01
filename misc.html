@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Miscellaneous</title>
+		<link rel="stylesheet" href="style/style.css">
+		<link rel="stylesheet" href="style/download-box.css">
+		<link rel="stylesheet" href="style/box.css">
+	</head>
+
+	<body>
+		<br>
+		<div id="top-bar">
+			<a href="index.html" class="top-bar-link">Home</a>
+			<a href="https://www.youtube.com/@nullptrerror1953/videos" class="top-bar-link">YouTube</a>
+			<a href="https://odysee.com/@nullptr:d" class="top-bar-link">Odysee</a>
+			<a href="https://nullptr-error.itch.io/" class="top-bar-link">itch.io</a>
+			<a href="https://github.com/JLi69/JLi69.github.io" class="top-bar-link">Webpage Source</a>			
+		</div>	
+
+		<br></br>
+
+		<div class="box">
+			<h2>Miscellaneous</h2>
+
+			<p>
+				This is just where I will put random things that I think are
+				interesting but don't really have a good place anywhere else
+				on this website.
+			</p>
+
+			<br>
+		</div>
+
+		<div class="download-box">
+			<h2>Mandelbrot Set Program in 190 characters</h2>	
+
+			<p>
+				<strong>
+					<code>
+						#define l(v)for(float v=-2;v<=2;v+=.1f)<br>
+						int main(){l(i){l(r){float a=0,b=0;int v=16;while(v>0){float t=a*a-b*b+r;b=2*a*b+i;a=t;if(t*t+b*b>4)v=0;--v;}v?printf(".."):printf("##");}puts("");}}
+					</code>
+				</strong>
+				<br><br>
+			
+				I was bored one day and decided to waste some time trying to
+				code golf a C program that could output the Mandelbrot Set
+				to stdout. As far as I've tested, this compiles under
+				<code>gcc 11.4.0</code> on Ubuntu.<br><br>
+
+				Copy and paste the code and try it out yourself! :D<br>
+			<p>	
+		</div>
+	</body>
+</html>

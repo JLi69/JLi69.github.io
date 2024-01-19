@@ -73,8 +73,13 @@ a:hover {
 .image {
 	max-width: 400px;
 	max-height: 200px;
-	padding: 20px;
-	border-radius: 10px;
+	padding: 10px;
+	border-radius: 10px;	
+
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+
 }
 
 .game-link {

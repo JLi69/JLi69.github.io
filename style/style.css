@@ -1,21 +1,18 @@
-h1
-{
+h1 {
 	text-align: center;
 	font-family: "Courier New", monospace;
 	color: #FFFFFF;
 	font-size: 50px;
 }
 
-h2
-{
+h2 {
 	text-align: center;
 	font-family: "Courier New", monospace;
 	color: #FFFFFF;
 	font-size: 32px;
 }
 
-h3
-{
+h3 {
 	text-align: center;
 	font-family: "Courier New", monospace;
 	color: #FFFFFF;
@@ -23,31 +20,25 @@ h3
 }
 
 /* Background Color */
-body
-{
+body {
 	background-color: #212121;
 }
 
 /* Links to other locations */
-a
-{
+a {
 	font-family: "Courier New", monospace;
 }
-a:link
-{
+a:link {
 	color: #00CCFF;
 }
-a:visited
-{
+a:visited {
 	color: #0099EE;
 }
-a:hover
-{
+a:hover {
 	color: #FF00AA;
 }
 
-#top-bar
-{
+#top-bar {
 	width: 98%;
 	height: 5%;
 	
@@ -62,22 +53,36 @@ a:hover
 	margin: auto;
 }
 
-.top-bar-link
-{
+.top-bar-link {
 	padding: 20px;
 }
 
-.highlight
-{
+.highlight {
 	color: #008888;
 }
 
-.screenshot
-{
+.screenshot {
 	max-width: 500px;
 	padding: 20px;
 	border-radius: 40px;	
 
 	display: block;
 	margin: auto;
+}
+
+.image {
+	max-width: 400px;
+	max-height: 200px;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.game-link {
+	text-decoration: none;
+}
+
+.image:hover {
+	border: solid;
+	border-color: white;
+	border-width: 2px;
 }

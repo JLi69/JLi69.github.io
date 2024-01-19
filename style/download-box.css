@@ -1,5 +1,4 @@
-.download-box
-{	
+.download-box {	
 	background-color: #333333;
 
 	border-radius: 50px;
@@ -10,13 +9,11 @@
 	margin: auto;
 }
 
-h1
-{
+h1 {
 	text-align: left;
 }
 
-h2
-{
+h2 {
 	text-align: center;
 	padding-left: 40px;
 	padding-right: 40px;
@@ -24,8 +21,7 @@ h2
 	padding-bottom: 16px;
 }
 
-h3
-{
+h3 {
 	font-size: 18px;
 
 	text-align: left;
@@ -35,8 +31,7 @@ h3
 	padding-bottom: 4px;
 }
 
-p
-{
+p {
 	font-size: 18px;
 
 	color: #FFFFFF;	

@@ -1,5 +1,4 @@
-.box
-{	
+.box {	
 	background-color: #333333;
 	border-radius: 50px;
 
@@ -9,26 +8,22 @@
 	margin: auto;
 }
 
-.box-title
-{
+.box-title {
 	padding: 10px;
 	text-align: left;
 	margin-left: 50px;
 }
 
-.box-text
-{	
+.box-text {	
 	padding: 10px;
 	text-align: left;
 	margin-left: 60px;
 }
 
-.status-complete
-{
+.status-complete {
 	color: #00FF00;
 }
 
-.status-wip
-{
+.status-wip {
 	color: #FFFF00;
 }

@@ -1,5 +1,5 @@
 *.txt
-!credits.txt
+!*credits.txt
 
 *~
 source

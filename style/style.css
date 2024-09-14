@@ -84,10 +84,23 @@ a:hover {
 
 .game-link {
 	text-decoration: none;
+	position: relative;
 }
 
 .image:hover {
 	border: solid;
 	border-color: white;
 	border-width: 2px;
+}
+
+.game-thumbnails {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.with {
+	position: absolute;
+	width: 256px;
+	top: -6px;
+	left: -24px;
 }

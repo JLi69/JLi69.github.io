@@ -52,6 +52,34 @@
 			<p>	
 		</div>
 
+		<div class="download-box">
+			<h2>Prime Sieve in 126 characters</h2>	
+
+			<p>
+				<strong>
+					<code>
+						#define l for(i=2;i&lt;N;i++)<br>
+						int N=1000001,i,j;main(){int b[N];l b[i]=1;l{if(b[i]){printf("%d\n",i);for(j=i;j&lt;N;j+=i)b[j]=0;}}}
+					</code>
+				</strong>
+				<br><br>
+
+				This is a prime sieve written in C that outputs all the primes between 
+				1 and 1000000 in only 126 bytes of source code. You can technically
+				shave off a few more bytes by removing the newline and instead
+				having a space be output (but reading the output is harder in
+				my opinion). Additoinally, you can shave off 2 more bytes by
+				removing the brackets from the <code>if(b[i])</code> statement
+				so that only the <code>printf</code> function is in the if statement.
+				The program still produces the same output but is slightly less
+				performant so I decided to keep the brackets. But technically
+				you can get this program down to 123 bytes. Additionally, you
+				can remove some digits from N to decrease the character count some
+				more. As far as I've tested, this compiles under <code>gcc 13.3.0</code> 
+				on Ubuntu.<br><br>
+			<p>	
+		</div>
+
 		<br><br>
 	</body>
 </html>

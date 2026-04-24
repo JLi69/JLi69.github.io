@@ -1,0 +1,29 @@
+.webring-box {
+	background-color: #333333;
+
+	border-radius: 50px;
+
+	width: 98%;
+
+	display: block;
+	margin: auto;
+}
+
+.webring-text {
+	margin: 8px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	text-align: center;
+}
+
+.webring-link-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 15px;
+}
+
+.webring-link {
+	margin-left: 64px;
+	margin-right: 64px;
+}
